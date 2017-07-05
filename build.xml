@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<project default="jar" basedir=".">
+
+<property name="src" value="src"/>
+<property name="bin" value="bin"/>
+<property name="lib" value="lib"/>
+<property name="doc" value="doc"/>
+
+<target name="init">
+	<delete dir="${bin}"/>
+	<delete dir="./tmp"/>
+	<mkdir dir="${bin}"/>
+</target>
+
+
+<target name="build" depends="init">
+	<javac srcdir="${src}" destdir="${bin}"/>
+ </target>
+
+
+ <target name="jar" depends="build">
+        <mkdir dir="./bin/jar"/>
+        <jar destfile="./bin/jar/genetic.jar" basedir="bin/">
+            <manifest>
+                <attribute name="Main-Class" value="genetic.Main"/>
+            </manifest>
+        </jar>
+    </target>
+
+<target name="run" depends="jar">
+	<mkdir dir="./tmp"/>
+	<java jar="./bin/jar/genetic.jar" 
+		fork="true"
+		output="./tmp/running"
+		error="./tmp/error"
+	>
+	</java>
+</target>
+
+<target name="doc" depends="build" description="generate documentation">
+	<mkdir dir="${doc}"/>
+	<javadoc destdir="${doc}" packagenames="*.*" author="false" private="true" version="true" windowtitle="Simple Documentation">
+			<packageset dir="${src}" />
+	</javadoc>
+  </target>
+
+<target name="clean">
+	<delete dir="${bin}"/>
+	<delete dir="${doc}"/>
+</target>
+
+</project>
