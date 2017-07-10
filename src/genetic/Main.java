@@ -29,33 +29,52 @@ public class Main
 
 	public static void main(String[] args) throws Exception
 	{
-		BufferedWriter out = new BufferedWriter(new FileWriter("out.txt"));
 		ClassSystem system = new ClassSystem(args[0]);
 		system.selectSemester(2013, 1);
 
 
-		for(int count=0; count< 20; count++)
+		BufferedWriter out = new BufferedWriter(new FileWriter("result/out"+""+".csv"));
+		MutationAdaptor mA = new MutationAdaptor();
+		GreedyAdaptor rA = new GreedyAdaptor();
+		Gene gene = ClassManager.getInstance().makeGene();
+		Random rd = new Random();
+
+		Gene[] tmp = new Gene[400];
+		Gene[] generation = new Gene[100];
+
+		for(int i=0; i<100; i++)
 		{
-			Gene gene = ClassManager.getInstance().makeGene();
-
-			for(int i=1; i < 100; i++)
-			{
-				GreedyAdaptor rA = new GreedyAdaptor();
-				rA.setGene(gene);
-				gene= rA.mutate(100);
-				String str = (i + "," + gene.getTotalNextDistance()+ ",");
-				System.out.println(str);
-				out.write(str); out.newLine();
-			}
-			System.out.println("====");
-
-			for(ClassGene _class : gene.getClassGene())
-			{
-				String str = (_class + "\t" + _class.getClassRoom().getName());
-				System.out.println(str);
-				out.write(str); out.newLine();
-			}
+			rA.setGene(gene);
+			generation[i] = rA.mutate(100);
+			System.out.print("g");
 		}
+
+		for(int count = 0; count < 100; count++)
+		{
+			for(int i=0; i<100; i++)
+				tmp[i] = generation[i];
+			for(int i=100; i<300; i++)
+			{
+				tmp[i] = mA.mutate(generation[rd.nextInt(100)], generation[rd.nextInt(100)], 50);
+			System.out.print("c");
+			}
+
+			for(int i=300; i<400; i++)
+			{
+				GreedyAdaptor g = new GreedyAdaptor(); g.setGene(tmp[i-300]);
+			System.out.print("g");
+				tmp[i] = g.mutate(100);
+			}
+
+			Arrays.sort(tmp, new cmp());
+
+			StringBuilder t = new StringBuilder();
+			for(Gene _class : tmp)
+				       t.append(count + "," + _class.getTotalNextDistance() + ",\n");
+
+			System.out.println(t.toString());
+		}
+
 
 		out.close();
 	}

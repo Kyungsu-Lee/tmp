@@ -1,200 +1,424 @@
-0:2732
-===
-1:2778
-===
-2:2819
-===
-3:2757
-===
-4:2786
-===
-5:2782
-===
-6:2810
-===
-7:2734
-===
-8:2741
-===
-9:2835
-===
-10:2866
-===
-11:2770
-===
-12:2812
-===
-13:2804
-===
-14:2778
-===
-15:2710
-===
-16:2793
-===
-17:2786
-===
-18:2803
-===
-19:2809
-===
-20:2770
-===
-21:2791
-===
-22:2692
-===
-23:2704
-===
-24:2757
-===
-25:2687
-===
-26:2795
-===
-27:2798
-===
-28:2749
-===
-29:2772
-===
-30:2736
-===
-31:2762
-===
-32:2749
-===
-33:2746
-===
-34:2717
-===
-35:2775
-===
-36:2714
-===
-37:2781
-===
-38:2705
-===
-39:2831
-===
-40:2748
-===
-41:2733
-===
-42:2773
-===
-43:2787
-===
-44:2747
-===
-45:2756
-===
-46:2788
-===
-47:2775
-===
-48:2746
-===
-49:2768
-===
-50:2733
-===
-51:2772
-===
-52:2714
-===
-53:2726
-===
-54:2836
-===
-55:2766
-===
-56:2728
-===
-57:2726
-===
-58:2699
-===
-59:2764
-===
-60:2744
-===
-61:2745
-===
-62:2750
-===
-63:2640
-===
-64:2795
-===
-65:2745
-===
-66:2765
-===
-67:2842
-===
-68:2741
-===
-69:2735
-===
-70:2767
-===
-71:2805
-===
-72:2733
-===
-73:2752
-===
-74:2732
-===
-75:2764
-===
-76:2721
-===
-77:2752
-===
-78:2763
-===
-79:2739
-===
-80:2788
-===
-81:2786
-===
-82:2788
-===
-83:2759
-===
-84:2755
-===
-85:2760
-===
-86:2724
-===
-87:2763
-===
-88:2722
-===
-89:2803
-===
-90:2784
-===
-91:2788
-===
-92:2751
-===
-93:2791
-===
-94:2704
-===
-95:2743
-===
-96:2732
-===
-97:2780
-===
-98:2732
-===
-99:2753
-===
+1	{year : 2013	 semester : 1	 class_code : GEK10042	 class_section : 1	 time : 13/43/	OH 405	2481	NTH 218	2075	
+1	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 1	 time : 22/52/	NMH 403	2353	HDH 320A	1532	
+1	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 2	 time : 12/42/	ANH 313	1956	HDH 419	1659	
+1	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 2	 time : 23/53/	NMH 403	1766	HDH 214	1262	
+1	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 11	 time : 24/25/	NMH 410A	1529	NTH 413	1442	
+1	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 2	 time : 22/52/	NMH 207	1374	GLC 106	1242	
+1	{year : 2013	 semester : 1	 class_code : ISE10051	 class_section : 2	 time : 14/44/	HDH 318	1140	NTH 412	859	
+1	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 2	 time : 26/56/	HDH 418B	1128	NTH 120B	844	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 16	 time : 23/53/	GLC 304	1032	NTH 120B	719	
+1	{year : 2013	 semester : 1	 class_code : GEK10095	 class_section : 2	 time : 12/42/	HDH 425B	1080	GLC 201	1043	
+1	{year : 2013	 semester : 1	 class_code : GEK10059	 class_section : 1	 time : 22/52/	NMH 410A	993	NTH 214	760	
+1	{year : 2013	 semester : 1	 class_code : GEK10059	 class_section : 2	 time : 23/53/	OH 403	822	NTH 220	758	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 3	 time : 13/43/	GLC 304	721	ANH 313	645	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 2	 time : 12/42/	GLC 202	805	NMH 207	631	
+1	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 18	 time : 16/46/	HDH 403	799	NTH 120B	376	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 7	 time : 12/42/	GLC 304	743	OH 영상정보실	668	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 9	 time : 15/45/	GLC 304	753	NTH 209A	424	
+1	{year : 2013	 semester : 1	 class_code : GEK10060	 class_section : 1	 time : 13/43/	NMH 404	662	HDH 324	629	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 6	 time : 16/46/	GLC 202	637	NMH 406	561	
+1	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 10	 time : 21/51/	GLC 106	531	NMH 109	497	
+1	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 13	 time : 21/51/	GLC 101	401	HDH 326A	391	
+1	{year : 2013	 semester : 1	 class_code : GEK20011	 class_section : 2	 time : 13/14/	OH 421	424	NTH 215	298	
+1	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 4	 time : 11/41/	GLC 301	436	OH 영상정보실	381	
+1	{year : 2013	 semester : 1	 class_code : GEK10022	 class_section : 1	 time : 15/45/	OH 403	385	NTH 118	213	
+1	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 9	 time : 15/45/	GLC 106	514	HDH 326A	385	
+1	{year : 2013	 semester : 1	 class_code : GEK20044	 class_section : 1	 time : 16/17/	HDH 425B	496	NTH 311	350	
+1	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 2	 time : 13/43/	GLC 302	456	NMH 209	362	
+1	{year : 2013	 semester : 1	 class_code : GEK20042	 class_section : 2	 time : 14/15/	OH 402	392	NTH 217	319	
+1	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 4	 time : 26/56/	HDH 303A	398	OH 306	359	
+1	{year : 2013	 semester : 1	 class_code : GEK20031	 class_section : 2	 time : 25/55/	OH 402	328	NMH 104A	184	
+1	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 1	 time : 14/44/	OH 403	313	ANH Auditorium	304	
+1	{year : 2013	 semester : 1	 class_code : ISL20077	 class_section : 2	 time : 21/51/	NMH 104A	291	OH 420	148	
+1	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 12	 time : 25/26/	NMH 410A	255	NTH 218	156	
+1	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 9	 time : 21/51/	GLC 301	208	ANH 313	136	
+1	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 3	 time : 25/55/	HDH 303A	225	HDH 403	205	
+1	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 11	 time : 24/54/	GLC 301	171	GLC 204	165	
+1	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 3	 time : 14/44/	GLC 305	165	NMH 404	47	
+1	{year : 2013	 semester : 1	 class_code : ENG20022	 class_section : 1	 time : 25/55/	NMH 404	89	NMH 209	74	
+1	{year : 2013	 semester : 1	 class_code : GEK30030	 class_section : 1	 time : 22/52/	OH 401	97	HDH 214	76	
+1	{year : 2013	 semester : 1	 class_code : ISL10085	 class_section : 1	 time : 26/56/	NMH 104A	67	HDH 303B	59	
+1	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 10	 time : 21/51/	GLC 202	64	NMH 108	38	
+1	{year : 2013	 semester : 1	 class_code : UIL20011	 class_section : 1	 time : 24/54/	ANH 305	61	NMH 104A	39	
+1	{year : 2013	 semester : 1	 class_code : CCC20072	 class_section : 1	 time : 17/47/	NMH 410B	61	NMH 105	45	
+1	{year : 2013	 semester : 1	 class_code : PCO10015	 class_section : 1	 time : 17/47/	HDH 303A	41	NMH 310	13	
+1	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 2	 time : 13/43/	GLC 305	39	NTH 214	13	
+1	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 8	 time : 16/46/	GLC 305	29	HDH 214	12	
+1	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 18	 time : 26/56/	GLC 303	26	GLC 201	24	
+2	{year : 2013	 semester : 1	 class_code : GEK10062	 class_section : 2	 time : 13/43/	OH 403	1537	OH 306	1354	
+2	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 2	 time : 22/52/	GLC 106	1390	NTH 113	1094	
+2	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 11	 time : 24/25/	NTH 413	1234	NTH 113	1010	
+2	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 4	 time : 14/44/	HDH 303B	1074	NMH 102B	933	
+2	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 17	 time : 15/45/	HDH 403	1157	GLC 106	1081	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 12	 time : 24/54/	GLC 106	1066	HDH 403	953	
+2	{year : 2013	 semester : 1	 class_code : GEK10095	 class_section : 1	 time : 23/53/	OH 306	992	NTH 213	956	
+2	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 11	 time : 21/51/	HDH 403	967	HDH 324	912	
+2	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 15	 time : 17/47/	HDH 402	866	ANH 313	581	
+2	{year : 2013	 semester : 1	 class_code : GEK10061	 class_section : 2	 time : 23/53/	HCA 2층	876	SU 104	614	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 7	 time : 12/42/	OH 영상정보실	707	NTH 118	504	
+2	{year : 2013	 semester : 1	 class_code : GEK20011	 class_section : 1	 time : 43/44/	NMH 410A	666	NTH 215	589	
+2	{year : 2013	 semester : 1	 class_code : ISE10052	 class_section : 1	 time : 16/46/	HDH 318	753	NMH 209	282	
+2	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 10	 time : 16/46/	HDH 424	667	NMH 410B	298	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 2	 time : 12/42/	NMH 207	619	ANH 313	415	
+2	{year : 2013	 semester : 1	 class_code : GEK10060	 class_section : 1	 time : 13/43/	HDH 324	697	NTH 411	624	
+2	{year : 2013	 semester : 1	 class_code : GEK10061	 class_section : 1	 time : 22/52/	HCA 2층	598	NTH 115	278	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 6	 time : 16/46/	NMH 406	535	NTH 414	508	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 18	 time : 26/56/	GLC 304	501	HDH 320B	435	
+2	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 1	 time : 11/41/	HDH 303A	490	NMH 103A	197	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 1	 time : 11/41/	GLC 202	468	NMH 102B	329	
+2	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 13	 time : 21/51/	HDH 326A	425	NTH 313	354	
+2	{year : 2013	 semester : 1	 class_code : GEK10022	 class_section : 2	 time : 16/46/	OH 403	287	NMH 108	214	
+2	{year : 2013	 semester : 1	 class_code : ISL20077	 class_section : 4	 time : 22/52/	HDH 303B	250	NTH 411	239	
+2	{year : 2013	 semester : 1	 class_code : ISL10073	 class_section : 1	 time : 21/51/	NTH 213	226	NTH 115	219	
+2	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 15	 time : 26/56/	GLC 101	208	NMH 105	68	
+2	{year : 2013	 semester : 1	 class_code : GEK10058	 class_section : 1	 time : 25/55/	NMH 404	180	NTH 411	162	
+2	{year : 2013	 semester : 1	 class_code : GEK30046	 class_section : 1	 time : 13/43/	GLC 204	168	NTH 212	102	
+2	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 17	 time : 25/55/	GLC 304	164	OH 402	130	
+2	{year : 2013	 semester : 1	 class_code : CCC20053	 class_section : 1	 time : 12/42/	NMH 410A	126	NTH 413	107	
+2	{year : 2013	 semester : 1	 class_code : ENG20021	 class_section : 1	 time : 15/45/	NMH 410A	131	NTH 120B	117	
+2	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 3	 time : 25/55/	HCA 2층	123	GLC 302	104	
+2	{year : 2013	 semester : 1	 class_code : GEK20045	 class_section : 1	 time : 13/43/	NMH 403	111	NMH 102B	47	
+2	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 16	 time : 18/48/	HDH 402	86	NMH 105	17	
+2	{year : 2013	 semester : 1	 class_code : GEK30014	 class_section : 2	 time : 15/45/	OH 405	59	NMH 102B	49	
+2	{year : 2013	 semester : 1	 class_code : CUE20052	 class_section : 1	 time : 11/41/	NTH 313	41	ANH Auditorium	37	
+2	{year : 2013	 semester : 1	 class_code : GMP10001	 class_section : 3	 time : 16/46/	NMH 105	57	NTH 412	51	
+2	{year : 2013	 semester : 1	 class_code : GEK20016	 class_section : 1	 time : 15/45/	NMH 403	46	NTH 218	42	
+2	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	NTH 214	42	HDH 418B	0	
+2	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 14	 time : 23/53/	GLC 302	39	NTH 414	19	
+2	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 2	 time : 13/43/	NTH 214	13	NTH 120B	10	
+3	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 4	 time : 23/53/	OH 421	1599	NTH 211	1202	
+3	{year : 2013	 semester : 1	 class_code : GEK10095	 class_section : 2	 time : 12/42/	GLC 201	1305	OH 421	1289	
+3	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 2	 time : 22/52/	HDH 424	1208	ANH 313	1056	
+3	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 13	 time : 22/52/	GLC 101	970	SU 104	960	
+3	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 1	 time : 21/51/	HDH 424	967	OH 421	816	
+3	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 12	 time : 24/54/	HDH 403	920	NTH 213	679	
+3	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 3	 time : 23/53/	HDH 303B	862	OH 306	563	
+3	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 8	 time : 14/44/	GLC 304	787	NTH 218	233	
+3	{year : 2013	 semester : 1	 class_code : ISE10051	 class_section : 2	 time : 14/44/	NTH 412	718	NTH 120B	525	
+3	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 14	 time : 15/45/	GLC 301	576	ANH 313	316	
+3	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 9	 time : 15/45/	HDH 326A	558	OH 403	394	
+3	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 4	 time : 16/46/	NMH 410A	547	GLC 303	506	
+3	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 1	 time : 25/55/	HDH 418B	382	NTH 120B	208	
+3	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 5	 time : 15/45/	GLC 302	276	HDH 403	248	
+3	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 1	 time : 14/44/	ANH Auditorium	270	NMH 209	190	
+3	{year : 2013	 semester : 1	 class_code : ISL10074	 class_section : 1	 time : 13/43/	OH 420	232	HDH 324	147	
+3	{year : 2013	 semester : 1	 class_code : GEK10022	 class_section : 2	 time : 16/46/	NMH 108	190	OH 421	187	
+3	{year : 2013	 semester : 1	 class_code : GEK10037	 class_section : 2	 time : 26/27/	OH 305	181	NTH 115	61	
+3	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 10	 time : 22/52/	GLC 301	147	NTH 120B	59	
+3	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 9	 time : 21/51/	ANH 313	136	NTH 417	104	
+3	{year : 2013	 semester : 1	 class_code : GMP10003	 class_section : 1	 time : 22/52/	NMH 402	69	OH 영상정보실	8	
+3	{year : 2013	 semester : 1	 class_code : ISE20085	 class_section : 1	 time : 25/26/	HDH 318	83	NMH 404	37	
+3	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 18	 time : 26/56/	GLC 201	24	HDH 324	0	
+4	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 5	 time : 22/52/	OH 405	2063	NMH 102B	1353	
+4	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 2	 time : 23/53/	HDH 214	1450	NTH 215	1115	
+4	{year : 2013	 semester : 1	 class_code : MEC10001	 class_section : 2	 time : 16/46/	OH 405	1057	NTH 411	859	
+4	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 3	 time : 14/44/	GLC 302	1029	NTH 412	615	
+4	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 4	 time : 12/42/	OH 302	986	NTH 217	653	
+4	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 17	 time : 15/45/	GLC 106	964	NTH 414	684	
+4	{year : 2013	 semester : 1	 class_code : GEK10066	 class_section : 1	 time : 22/52/	NTH 313	478	NTH 217	386	
+4	{year : 2013	 semester : 1	 class_code : GEK10057	 class_section : 3	 time : 12/42/	NMH 404	606	NTH 414	501	
+4	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 2	 time : 15/45/	OH 420	500	NMH 406	440	
+4	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 15	 time : 17/47/	ANH 313	471	NTH 118	347	
+4	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 6	 time : 16/46/	NTH 414	510	NTH 218	403	
+4	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 20	 time : 24/54/	GLC 304	369	OH 420	239	
+4	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	OH 305	339	NTH 220	295	
+4	{year : 2013	 semester : 1	 class_code : GEK20044	 class_section : 1	 time : 16/17/	NTH 311	260	NTH 214	227	
+4	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 5	 time : 12/42/	GLC 301	284	NMH 207	108	
+4	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 4	 time : 26/56/	OH 306	266	NMH 106	201	
+4	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 11	 time : 24/54/	GLC 204	165	HDH 424	147	
+4	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 9	 time : 21/51/	NTH 417	104	NMH 403	74	
+4	{year : 2013	 semester : 1	 class_code : GMP10001	 class_section : 3	 time : 16/46/	NTH 412	51	NTH 118	18	
+4	{year : 2013	 semester : 1	 class_code : GEK20016	 class_section : 1	 time : 15/45/	NTH 218	42	HDH 320B	9	
+4	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 14	 time : 24/54/	GLC 305	29	HDH 418B	0	
+5	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 8	 time : 12/42/	HDH 402	1618	NTH 411	1080	
+5	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 13	 time : 22/52/	SU 104	1075	NTH 417	561	
+5	{year : 2013	 semester : 1	 class_code : GEK10062	 class_section : 1	 time : 12/42/	OH 403	1027	OH 306	834	
+5	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 11	 time : 23/53/	GLC 106	944	NMH 209	536	
+5	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 1	 time : 21/51/	OH 421	818	NTH 417	712	
+5	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 2	 time : 13/43/	HDH 418B	1026	NTH 118	667	
+5	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 4	 time : 16/46/	GLC 303	703	OH 405	637	
+5	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 6	 time : 16/46/	GLC 302	463	HDH 303A	445	
+5	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 7	 time : 21/51/	OH 302	351	OH 영상정보실	333	
+5	{year : 2013	 semester : 1	 class_code : GEK10059	 class_section : 3	 time : 13/43/	NTH 313	268	ANH Auditorium	258	
+5	{year : 2013	 semester : 1	 class_code : ISL10073	 class_section : 1	 time : 21/51/	NTH 115	202	NMH 104A	189	
+5	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 1	 time : 11/41/	NMH 103A	165	NTH 215	124	
+5	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 7	 time : 15/45/	GLC 305	137	OH 420	81	
+5	{year : 2013	 semester : 1	 class_code : GEK10056	 class_section : 1	 time : 17/47/	NMH 410A	85	NMH 103A	77	
+5	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 13	 time : 23/53/	GLC 301	61	HDH 214	49	
+5	{year : 2013	 semester : 1	 class_code : BFT20002	 class_section : 1	 time : 24/54/	OH 405	37	NMH 209	15	
+6	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 6	 time : 23/53/	OH 401	1591	NTH 209A	1230	
+6	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 9	 time : 13/43/	HDH 402	1460	OH 403	1035	
+6	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 3	 time : 23/53/	HDH 424	1405	OH 영상정보실	1403	
+6	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 1	 time : 12/42/	HDH 418B	1217	NMH 411	842	
+6	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 3	 time : 13/43/	HDH 425B	1068	NTH 413	875	
+6	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 3	 time : 44/45/	HDH 419	1209	OH 302	515	
+6	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 3	 time : 14/44/	NTH 412	437	NTH 214	390	
+6	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 18	 time : 26/56/	HDH 320B	450	NMH 411	322	
+6	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 7	 time : 12/42/	NTH 118	294	NTH 218	266	
+6	{year : 2013	 semester : 1	 class_code : GEK20028	 class_section : 1	 time : 22/23/	SU 101	332	GLC 302	330	
+6	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 9	 time : 15/45/	NMH 108	324	NTH 218	284	
+6	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 20	 time : 24/54/	OH 420	239	NTH 412	133	
+6	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 10	 time : 21/51/	NMH 109	226	NTH 113	184	
+6	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 17	 time : 25/55/	OH 402	130	ANH Auditorium	47	
+6	{year : 2013	 semester : 1	 class_code : CCC20053	 class_section : 1	 time : 12/42/	NTH 413	82	NTH 215	81	
+6	{year : 2013	 semester : 1	 class_code : ISE10022	 class_section : 1	 time : 25/55/	HDH 320A	38	OH 302	22	
+6	{year : 2013	 semester : 1	 class_code : UIL20011	 class_section : 1	 time : 24/54/	NMH 104A	19	NTH 215	9	
+6	{year : 2013	 semester : 1	 class_code : BFT20002	 class_section : 1	 time : 24/54/	NMH 209	15	NMH 403	0	
+7	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 12	 time : 22/52/	HDH 403	1476	NTH 313	646	
+7	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 11	 time : 21/51/	HDH 324	974	NTH 218	827	
+7	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 1	 time : 21/51/	NTH 417	712	NTH 213	623	
+7	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 11	 time : 13/43/	HDH 303B	563	NTH 211	317	
+7	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 1	 time : 12/42/	GLC 302	528	HDH 418B	481	
+7	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 4	 time : 16/46/	OH 405	465	NTH 209A	327	
+7	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 4	 time : 13/43/	GLC 303	444	NMH 410A	240	
+7	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 9	 time : 15/45/	OH 403	390	NTH 412	284	
+7	{year : 2013	 semester : 1	 class_code : GEK10060	 class_section : 1	 time : 13/43/	NTH 411	374	NTH 217	351	
+7	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 4	 time : 11/41/	OH 영상정보실	231	NMH 104A	229	
+7	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	NTH 220	226	OH 405	201	
+7	{year : 2013	 semester : 1	 class_code : ISL10074	 class_section : 1	 time : 13/43/	HDH 324	191	NMH 406	145	
+7	{year : 2013	 semester : 1	 class_code : GEK20022	 class_section : 1	 time : 26/27/	HDH 425B	137	NMH 110	124	
+7	{year : 2013	 semester : 1	 class_code : CCC20050	 class_section : 1	 time : 22/52/	NMH 405	37	NMH 209	24	
+7	{year : 2013	 semester : 1	 class_code : PCO10053	 class_section : 1	 time : 22/52/	OH 302	21	ANH Auditorium	7	
+8	{year : 2013	 semester : 1	 class_code : GEK10017	 class_section : 1	 time : 22/52/	HDH 418B	1133	NTH 211	579	
+8	{year : 2013	 semester : 1	 class_code : GEK10095	 class_section : 2	 time : 12/42/	OH 421	1043	NMH 404	941	
+8	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 4	 time : 13/43/	GLC 202	862	NMH 411	493	
+8	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 8	 time : 12/42/	NTH 411	744	NTH 211	503	
+8	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 1	 time : 12/42/	NMH 411	678	NTH 220	313	
+8	{year : 2013	 semester : 1	 class_code : GEK10061	 class_section : 2	 time : 23/53/	SU 104	745	ANH Auditorium	353	
+8	{year : 2013	 semester : 1	 class_code : GEK10000	 class_section : 1	 time : 24/25/54/55/	OH 306	386	NTH 211	192	
+8	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 13	 time : 21/51/	NTH 313	261	NMH 109	253	
+8	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 3	 time : 25/55/	HDH 403	208	NTH 118	99	
+8	{year : 2013	 semester : 1	 class_code : GEK20053	 class_section : 1	 time : 13/43/	HDH 320A	162	NTH 313	50	
+8	{year : 2013	 semester : 1	 class_code : ISL10074	 class_section : 1	 time : 13/43/	NMH 406	166	HDH 425B	160	
+8	{year : 2013	 semester : 1	 class_code : GEK30030	 class_section : 1	 time : 22/52/	HDH 214	114	NMH 405	63	
+8	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 15	 time : 26/56/	NMH 105	40	NTH 118	20	
+8	{year : 2013	 semester : 1	 class_code : GMP10001	 class_section : 1	 time : 21/51/	NMH 110	13	NTH 120B	7	
+8	{year : 2013	 semester : 1	 class_code : GEK10036	 class_section : 1	 time : 28/29/	HDH 418B	38	NTH 113	10	
+8	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 12	 time : 25/55/	GLC 202	28	HDH 418B	0	
+8	{year : 2013	 semester : 1	 class_code : PCO10015	 class_section : 1	 time : 17/47/	NMH 310	13	NMH 108	0	
+9	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 9	 time : 13/43/	OH 403	1122	NMH 404	889	
+9	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 5	 time : 13/43/	OH 302	1050	NTH 417	902	
+9	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 14	 time : 16/46/	HDH 402	647	NMH 404	532	
+9	{year : 2013	 semester : 1	 class_code : GEK10022	 class_section : 2	 time : 16/46/	OH 421	192	NTH 115	89	
+9	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 7	 time : 12/42/	GLC 106	192	OH 421	108	
+9	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 11	 time : 24/54/	HDH 424	133	ANH Auditorium	45	
+9	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 3	 time : 25/55/	GLC 302	125	HDH 424	122	
+9	{year : 2013	 semester : 1	 class_code : CUE20011	 class_section : 1	 time : 23/53/	NTH 212	42	GLC 201	24	
+9	{year : 2013	 semester : 1	 class_code : ISE20085	 class_section : 1	 time : 25/26/	NMH 404	37	NTH 413	28	
+9	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	HDH 418B	46	OH 402	37	
+10	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 2	 time : 12/42/	HDH 419	2042	NMH 209	761	
+10	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 3	 time : 23/53/	OH 영상정보실	1302	NTH 212	869	
+10	{year : 2013	 semester : 1	 class_code : GEK10040	 class_section : 2	 time : 22/52/	HDH 425B	955	NMH 411	723	
+10	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 5	 time : 14/44/	GLC 202	928	NTH 211	239	
+10	{year : 2013	 semester : 1	 class_code : GEK20028	 class_section : 1	 time : 22/23/	GLC 302	330	HDH 324	288	
+10	{year : 2013	 semester : 1	 class_code : GEK10017	 class_section : 2	 time : 23/53/	HDH 418B	226	NMH 406	206	
+10	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	OH 405	270	NMH 411	215	
+10	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 20	 time : 24/54/	NTH 412	133	NTH 310	110	
+10	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 13	 time : 23/53/	HDH 214	49	NTH 413	12	
+10	{year : 2013	 semester : 1	 class_code : CUE20052	 class_section : 1	 time : 11/41/	ANH Auditorium	37	NTH 220	35	
+11	{year : 2013	 semester : 1	 class_code : GEK10062	 class_section : 1	 time : 12/42/	OH 306	881	NTH 120B	398	
+11	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 3	 time : 13/43/	NTH 413	573	NTH 214	403	
+11	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 11	 time : 23/53/	NMH 209	536	NTH 417	499	
+11	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 1	 time : 14/15/	HDH 419	489	NMH 411	361	
+11	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 6	 time : 16/46/	HDH 303A	485	HDH 402	464	
+11	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 2	 time : 12/42/	ANH 313	311	NTH 118	181	
+11	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 1	 time : 11/41/	NMH 102B	117	NMH 208	101	
+11	{year : 2013	 semester : 1	 class_code : ISL10085	 class_section : 1	 time : 26/56/	HDH 303B	88	ANH Auditorium	45	
+11	{year : 2013	 semester : 1	 class_code : GEK20016	 class_section : 1	 time : 15/45/	HDH 320B	49	OH 영상정보실	37	
+11	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	OH 402	37	NMH 209	15	
+11	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 8	 time : 16/46/	HDH 214	40	ANH 313	39	
+11	{year : 2013	 semester : 1	 class_code : GMP10001	 class_section : 1	 time : 21/51/	NTH 120B	7	NTH 214	0	
+11	{year : 2013	 semester : 1	 class_code : GEK30022	 class_section : 2	 time : 23/24/	NTH 115	7	NTH 217	0	
+12	{year : 2013	 semester : 1	 class_code : GEK10041	 class_section : 1	 time : 22/52/	OH 403	1242	NTH 218	708	
+12	{year : 2013	 semester : 1	 class_code : GEK10062	 class_section : 2	 time : 13/43/	OH 306	888	NMH 406	763	
+12	{year : 2013	 semester : 1	 class_code : GEK10040	 class_section : 2	 time : 22/52/	NMH 411	723	NTH 215	316	
+12	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 9	 time : 13/43/	NMH 404	690	NTH 413	655	
+12	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 3	 time : 44/45/	OH 302	597	NMH 204	411	
+12	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 3	 time : 13/43/	ANH 313	490	NTH 209A	224	
+12	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 6	 time : 16/46/	HDH 402	464	OH 421	355	
+12	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 1	 time : 14/15/	NMH 411	312	NTH 220	190	
+12	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 14	 time : 16/46/	NMH 404	414	NTH 413	302	
+12	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 5	 time : 15/45/	HDH 403	313	HDH 214	252	
+12	{year : 2013	 semester : 1	 class_code : ISL10074	 class_section : 1	 time : 13/43/	HDH 425B	247	NMH 403	110	
+12	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 1	 time : 25/55/	NTH 120B	84	NMH 108	66	
+12	{year : 2013	 semester : 1	 class_code : ISL20077	 class_section : 1	 time : 12/42/	NMH 104A	69	ANH Auditorium	67	
+12	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 11	 time : 24/54/	ANH Auditorium	45	NTH 417	43	
+12	{year : 2013	 semester : 1	 class_code : CUE20011	 class_section : 1	 time : 23/53/	GLC 201	24	GLC 106	21	
+12	{year : 2013	 semester : 1	 class_code : GEK10036	 class_section : 1	 time : 28/29/	NTH 113	10	NMH 204	7	
+13	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 1	 time : 22/52/	HDH 320A	2390	HDH 424	2224	
+13	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 1	 time : 22/52/	HDH 323C	958	OH 403	880	
+13	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 6	 time : 15/45/	HDH 424	706	NTH 411	264	
+13	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 7	 time : 21/51/	OH 영상정보실	570	NTH 413	278	
+13	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 4	 time : 53/54/	HDH 419	568	OH 421	373	
+13	{year : 2013	 semester : 1	 class_code : GEK20028	 class_section : 1	 time : 22/23/	HDH 324	288	HDH 214	256	
+13	{year : 2013	 semester : 1	 class_code : GEK10041	 class_section : 2	 time : 52/53/	OH 402	224	NMH 105	146	
+13	{year : 2013	 semester : 1	 class_code : IID10004	 class_section : 2	 time : 45/46/	NMH 206B	90	NTH 217	47	
+13	{year : 2013	 semester : 1	 class_code : GEK10056	 class_section : 1	 time : 17/47/	NMH 103A	61	NTH 310	47	
+13	{year : 2013	 semester : 1	 class_code : GEK20028	 class_section : 3	 time : 42/43/	NMH 402	57	ANH 313	37	
+13	{year : 2013	 semester : 1	 class_code : ISL10085	 class_section : 1	 time : 26/56/	ANH Auditorium	45	OH 420	27	
+14	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 1	 time : 22/52/	HDH 424	2273	NMH 403	1626	
+14	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 14	 time : 15/45/	NMH 404	865	NMH 108	425	
+14	{year : 2013	 semester : 1	 class_code : MEC10001	 class_section : 2	 time : 16/46/	NTH 411	471	NTH 311	444	
+14	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 3	 time : 14/44/	NMH 404	68	NTH 113	41	
+15	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 8	 time : 23/53/	HDH 425B	1478	NTH 218	300	
+15	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 3	 time : 23/53/	OH 306	508	NMH 209	390	
+15	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 5	 time : 25/55/	HDH 303B	289	OH 영상정보실	222	
+15	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 15	 time : 17/47/	NTH 118	265	NTH 218	243	
+15	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 5	 time : 15/45/	HDH 214	252	NTH 417	65	
+15	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 1	 time : 12/42/	OH 420	251	NMH 406	202	
+15	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 15	 time : 25/55/	GLC 101	204	OH 405	172	
+15	{year : 2013	 semester : 1	 class_code : GEK30030	 class_section : 1	 time : 22/52/	NMH 405	63	NTH 220	0	
+15	{year : 2013	 semester : 1	 class_code : HMM10041	 class_section : 1	 time : 23/53/	OH 305	23	NTH 411	19	
+15	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	NMH 209	23	NMH 104A	19	
+15	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 2	 time : 14/15/	NMH 402	18	ANH Auditorium	14	
+16	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 3	 time : 23/53/	NMH 209	390	NMH 411	313	
+16	{year : 2013	 semester : 1	 class_code : GEK10033	 class_section : 1	 time : 16/46/	HDH 418B	279	NMH 108	125	
+16	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 10	 time : 26/56/	NMH 108	265	NTH 113	243	
+16	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 3	 time : 25/55/	HDH 424	122	NTH 412	65	
+16	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 18	 time : 26/56/	HDH 324	50	NTH 310	22	
+17	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 1	 time : 12/42/	GLC 101	293	NMH 104A	84	
+17	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 17	 time : 25/55/	ANH Auditorium	73	NTH 414	61	
+17	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 11	 time : 22/52/	GLC 305	49	OH 306	21	
+17	{year : 2013	 semester : 1	 class_code : ECE20016	 class_section : 2	 time : 16/46/	OH 402	27	NMH 102B	10	
+17	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	NMH 104A	19	NTH 220	9	
+18	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 11	 time : 21/51/	NTH 218	483	NMH 102B	409	
+18	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 5	 time : 22/52/	OH 420	205	NTH 413	74	
+18	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 3	 time : 25/55/	NTH 412	65	NTH 209A	47	
+19	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 2	 time : 26/56/	NTH 120B	532	OH 302	489	
+19	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 1	 time : 14/44/	NMH 209	126	NMH 110	100	
+19	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 20	 time : 24/54/	NTH 310	77	NTH 220	41	
+19	{year : 2013	 semester : 1	 class_code : CCC20053	 class_section : 1	 time : 12/42/	NTH 215	44	NTH 411	23	
+19	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 14	 time : 24/54/	HDH 418B	42	OH 401	26	
+19	{year : 2013	 semester : 1	 class_code : CUE20011	 class_section : 1	 time : 23/53/	GLC 106	41	NMH 102B	16	
+19	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	NTH 220	9	NTH 311	8	
+20	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 7	 time : 12/42/	OH 421	108	NTH 417	30	
+20	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 14	 time : 24/54/	OH 401	26	OH 302	21	
+20	{year : 2013	 semester : 1	 class_code : CUE20052	 class_section : 1	 time : 11/41/	NTH 220	21	NTH 113	14	
+22	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 6	 time : 15/45/	NTH 411	288	ANH 302	260	
+22	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 7	 time : 21/51/	NTH 413	278	NTH 215	108	
+22	{year : 2013	 semester : 1	 class_code : ISL20077	 class_section : 2	 time : 21/51/	OH 420	167	NTH 217	111	
+22	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 7	 time : 15/45/	OH 420	81	OH 305	65	
+22	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 12	 time : 25/55/	HDH 418B	49	NTH 417	25	
+22	{year : 2013	 semester : 1	 class_code : ENG20022	 class_section : 1	 time : 25/55/	NMH 209	38	NTH 120B	17	
+22	{year : 2013	 semester : 1	 class_code : UIL20011	 class_section : 1	 time : 24/54/	NTH 215	9	NTH 411	0	
+23	{year : 2013	 semester : 1	 class_code : GEK10055	 class_section : 1	 time : 22/52/	OH 403	673	NTH 414	425	
+23	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 14	 time : 24/54/	OH 302	21	NTH 310	7	
+24	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 18	 time : 26/56/	NMH 411	239	NTH 414	197	
+24	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	NMH 411	242	OH 305	223	
+25	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 9	 time : 24/25/	OH 403	1403	NMH 109	1080	
+25	{year : 2013	 semester : 1	 class_code : GEK10030	 class_section : 1	 time : 23/53/	OH 405	717	NMH 209	430	
+25	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 1	 time : 12/42/	HDH 418B	456	NTH 412	143	
+26	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 6	 time : 16/46/	OH 421	335	NTH 412	206	
+26	{year : 2013	 semester : 1	 class_code : UIL30051	 class_section : 1	 time : 12/42/	ANH 305	135	NMH 102B	91	
+27	{year : 2013	 semester : 1	 class_code : ISL10085	 class_section : 1	 time : 26/56/	OH 420	56	NTH 411	31	
+28	{year : 2013	 semester : 1	 class_code : GMP10003	 class_section : 1	 time : 22/52/	OH 영상정보실	59	OH 302	48	
+28	{year : 2013	 semester : 1	 class_code : PCO10057	 class_section : 1	 time : 31/32/	HDH 418B	5	ANH 313	0	
+29	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 13	 time : 23/53/	HDH 403	1732	OH 영상정보실	1151	
+29	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 18	 time : 26/56/	NTH 310	22	OH 420	0	
+30	{year : 2013	 semester : 1	 class_code : GEK10096	 class_section : 2	 time : 12/42/	NMH 209	679	NTH 215	633	
+31	{year : 2013	 semester : 1	 class_code : GEK10095	 class_section : 2	 time : 12/42/	NMH 404	643	NTH 310	526	
+31	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 8	 time : 14/44/	NMH 108	425	NTH 411	355	
+31	{year : 2013	 semester : 1	 class_code : PCO20005	 class_section : 11	 time : 24/54/	NTH 417	43	NTH 218	26	
+32	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 2	 time : 13/43/	NMH 209	177	NTH 411	158	
+32	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 4	 time : 11/41/	NMH 104A	129	NTH 218	123	
+33	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 4	 time : 14/44/	NMH 102B	595	NTH 414	396	
+33	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 1	 time : 11/41/	NMH 208	181	NTH 311	127	
+33	{year : 2013	 semester : 1	 class_code : GEK10036	 class_section : 1	 time : 28/29/	NMH 204	7	NMH 102B	0	
+35	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 2	 time : 26/56/	OH 302	594	NTH 209A	447	
+35	{year : 2013	 semester : 1	 class_code : GEK10057	 class_section : 2	 time : 11/41/	NMH 105	317	NTH 220	185	
+36	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 4	 time : 53/54/	OH 421	431	NMH 108	197	
+36	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 13	 time : 21/51/	NMH 109	158	NTH 120B	139	
+37	{year : 2013	 semester : 1	 class_code : GEK10057	 class_section : 1	 time : 15/45/	NMH 410A	437	NMH 209	402	
+37	{year : 2013	 semester : 1	 class_code : MEC10001	 class_section : 3	 time : 22/52/	NMH 402	242	NMH 207	193	
+37	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 1	 time : 11/41/	NTH 311	127	NTH 118	101	
+38	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 7	 time : 15/45/	OH 305	65	NMH 403	58	
+38	{year : 2013	 semester : 1	 class_code : ISL10085	 class_section : 1	 time : 26/56/	NTH 411	31	NTH 220	20	
+39	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 10	 time : 16/46/	NMH 410B	349	NTH 414	201	
+39	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 15	 time : 25/55/	OH 405	167	NMH 410A	105	
+39	{year : 2013	 semester : 1	 class_code : ISL10085	 class_section : 1	 time : 26/56/	NTH 220	20	NMH 108	10	
+40	{year : 2013	 semester : 1	 class_code : GEK20016	 class_section : 1	 time : 15/45/	OH 영상정보실	25	OH 305	19	
+40	{year : 2013	 semester : 1	 class_code : GEA10035	 class_section : 1	 time : 17/18/	NTH 311	8	NTH 413	0	
+41	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 18	 time : 26/56/	NTH 414	183	NMH 105	121	
+42	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 13	 time : 23/53/	OH 영상정보실	1147	OH 306	923	
+42	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 7	 time : 13/43/	NMH 108	265	NTH 220	210	
+42	{year : 2013	 semester : 1	 class_code : HMM10041	 class_section : 1	 time : 23/53/	NTH 411	19	NMH 403	16	
+43	{year : 2013	 semester : 1	 class_code : UIL30051	 class_section : 1	 time : 12/42/	NMH 102B	117	NTH 413	97	
+45	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 13	 time : 23/53/	OH 306	923	NTH 411	732	
+45	{year : 2013	 semester : 1	 class_code : GMP10003	 class_section : 1	 time : 22/52/	OH 302	48	NMH 406	36	
+45	{year : 2013	 semester : 1	 class_code : ISE10022	 class_section : 1	 time : 25/55/	OH 302	21	ANH Auditorium	7	
+46	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 2	 time : 26/56/	NTH 209A	428	NMH 104A	347	
+46	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 1	 time : 12/42/	NMH 406	222	NMH 209	172	
+46	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 4	 time : 11/41/	NTH 218	115	NMH 104A	111	
+46	{year : 2013	 semester : 1	 class_code : ISL10074	 class_section : 1	 time : 13/43/	NMH 403	116	NTH 414	74	
+47	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 4	 time : 13/43/	NMH 411	486	OH 306	444	
+47	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 9	 time : 13/43/	NTH 413	421	NMH 108	397	
+48	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 2	 time : 15/45/	NMH 406	334	NTH 411	159	
+48	{year : 2013	 semester : 1	 class_code : GEK10056	 class_section : 1	 time : 17/47/	NTH 310	22	NTH 212	16	
+51	{year : 2013	 semester : 1	 class_code : MEC10002	 class_section : 4	 time : 16/46/	NMH 105	441	NTH 411	412	
+52	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 3	 time : 44/45/	NMH 204	471	ANH 304	265	
+52	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	OH 305	171	NMH 209	156	
+55	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 4	 time : 14/44/	NTH 414	441	NTH 118	434	
+55	{year : 2013	 semester : 1	 class_code : PCO10015	 class_section : 1	 time : 17/47/	NMH 108	19	NTH 414	0	
+56	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 15	 time : 25/55/	NMH 410A	100	NTH 220	66	
+57	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 3	 time : 14/44/	NTH 113	41	NMH 202	31	
+58	{year : 2013	 semester : 1	 class_code : GEK30022	 class_section : 1	 time : 22/23/	OH 402	301	OH 302	243	
+59	{year : 2013	 semester : 1	 class_code : GEK20028	 class_section : 1	 time : 22/23/	HDH 214	186	OH 405	172	
+60	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 5	 time : 25/55/	OH 영상정보실	174	OH 302	154	
+61	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	NMH 209	156	NTH 412	67	
+62	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 13	 time : 23/53/	NTH 413	12	HDH 424	5	
+63	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 8	 time : 14/44/	NTH 218	180	NMH 102B	167	
+64	{year : 2013	 semester : 1	 class_code : GEK10033	 class_section : 1	 time : 16/46/	NMH 108	125	ANH Auditorium	53	
+64	{year : 2013	 semester : 1	 class_code : GEK30015	 class_section : 2	 time : 26/56/	OH 402	37	OH 305	23	
+65	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 12	 time : 25/55/	NTH 417	19	NMH 404	16	
+68	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 1	 time : 12/42/	NMH 209	136	NMH 102B	81	
+71	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 4	 time : 53/54/	NMH 108	194	NTH 217	168	
+72	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 1	 time : 14/44/	NMH 110	107	NTH 113	101	
+73	{year : 2013	 semester : 1	 class_code : GEK20011	 class_section : 3	 time : 43/44/	OH 421	149	NMH 404	79	
+73	{year : 2013	 semester : 1	 class_code : ISL10071	 class_section : 3	 time : 23/53/	OH 420	60	OH 305	42	
+73	{year : 2013	 semester : 1	 class_code : ISE10022	 class_section : 1	 time : 25/55/	ANH Auditorium	29	NMH 410A	16	
+77	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 7	 time : 15/45/	NMH 403	69	OH 302	61	
+78	{year : 2013	 semester : 1	 class_code : GEK10062	 class_section : 2	 time : 13/43/	NMH 406	730	NMH 209	502	
+79	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 12	 time : 25/55/	NMH 404	21	ANH 313	7	
+80	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 1	 time : 11/41/	NTH 118	101	NTH 213	77	
+82	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 18	 time : 26/56/	OH 420	8	OH 302	0	
+89	{year : 2013	 semester : 1	 class_code : GEK10038	 class_section : 4	 time : 53/54/	NTH 217	154	NTH 115	131	
+92	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 10	 time : 16/46/	NTH 414	202	NMH 105	201	
+93	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 7	 time : 12/42/	NTH 417	30	ANH 305	26	
+94	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 3	 time : 14/44/	NMH 202	31	NMH 108	20	
+96	{year : 2013	 semester : 1	 class_code : ISE10022	 class_section : 1	 time : 25/55/	NMH 410A	16	NMH 209	7	
+100	{year : 2013	 semester : 1	 class_code : GEK10033	 class_section : 1	 time : 16/46/	ANH Auditorium	53	NTH 414	47	
+102	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 12	 time : 25/55/	ANH 313	14	NTH 417	12	
+112	{year : 2013	 semester : 1	 class_code : GEK10062	 class_section : 2	 time : 13/43/	NMH 209	502	NTH 413	474	
+115	{year : 2013	 semester : 1	 class_code : GEK20011	 class_section : 3	 time : 43/44/	NMH 404	79	NMH 209	28	
+117	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 4	 time : 14/44/	NTH 118	422	NTH 417	387	
+119	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 17	 time : 25/55/	NTH 414	69	NMH 410A	66	
+120	{year : 2013	 semester : 1	 class_code : GEK10030	 class_section : 1	 time : 23/53/	NMH 209	412	NTH 413	381	
+127	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 6	 time : 16/46/	NTH 412	171	NMH 108	69	
+130	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 13	 time : 23/53/	NTH 411	694	NMH 209	579	
+131	{year : 2013	 semester : 1	 class_code : ISE10002	 class_section : 1	 time : 22/52/	OH 305	336	NMH 402	320	
+133	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 14	 time : 24/54/	NTH 310	7	NTH 214	0	
+134	{year : 2013	 semester : 1	 class_code : ISL10075	 class_section : 8	 time : 14/44/	NTH 411	338	NTH 218	248	
+134	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 7	 time : 15/45/	OH 302	61	NMH 204	57	
+135	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 18	 time : 26/56/	NMH 105	111	NTH 211	103	
+137	{year : 2013	 semester : 1	 class_code : GEK10070	 class_section : 1	 time : 23/53/	NMH 410A	333	NTH 411	322	
+142	{year : 2013	 semester : 1	 class_code : PCO20004	 class_section : 5	 time : 12/42/	NMH 207	81	NTH 417	69	
+143	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 11	 time : 23/53/	NTH 417	426	NMH 410A	315	
+160	{year : 2013	 semester : 1	 class_code : GMP10003	 class_section : 1	 time : 22/52/	NMH 406	48	OH 305	40	
+197	{year : 2013	 semester : 1	 class_code : GEK10045	 class_section : 13	 time : 23/24/	NMH 108	230	NTH 417	221	
+200	{year : 2013	 semester : 1	 class_code : GEK10017	 class_section : 2	 time : 23/53/	NMH 406	114	NMH 108	58	
+202	{year : 2013	 semester : 1	 class_code : GEK10022	 class_section : 2	 time : 16/46/	NTH 115	84	NTH 412	69	
+203	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 8	 time : 14/44/	NMH 102B	173	NTH 118	165	
+211	{year : 2013	 semester : 1	 class_code : ECE20016	 class_section : 2	 time : 16/46/	NMH 102B	10	NTH 115	0	
+245	{year : 2013	 semester : 1	 class_code : ISE10052	 class_section : 1	 time : 16/46/	NMH 209	176	NMH 102B	82	
+253	{year : 2013	 semester : 1	 class_code : GEK30022	 class_section : 1	 time : 22/23/	OH 302	243	NMH 406	198	
+254	{year : 2013	 semester : 1	 class_code : GEK40096	 class_section : 3	 time : 25/55/	NTH 209A	18	NTH 414	9	
+266	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 1	 time : 25/55/	NMH 108	79	NTH 209A	67	
+269	{year : 2013	 semester : 1	 class_code : PCO10013	 class_section : 12	 time : 25/55/	NTH 417	12	NMH 108	10	
+272	{year : 2013	 semester : 1	 class_code : ISL10073	 class_section : 1	 time : 21/51/	NMH 104A	101	NMH 402	77	
+281	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 4	 time : 26/56/	NMH 106	107	NTH 120B	94	
+287	{year : 2013	 semester : 1	 class_code : PCO10024	 class_section : 4	 time : 26/56/	NTH 120B	94	NTH 209A	68	
+345	{year : 2013	 semester : 1	 class_code : GEK10041	 class_section : 2	 time : 52/53/	NMH 105	85	NTH 118	69	
+353	{year : 2013	 semester : 1	 class_code : PCO10058	 class_section : 11	 time : 21/51/	NMH 102B	400	NTH 115	371	
+396	{year : 2013	 semester : 1	 class_code : PCO10012	 class_section : 18	 time : 26/56/	NTH 211	99	NTH 120B	97	
+399	{year : 2013	 semester : 1	 class_code : IID10005	 class_section : 3	 time : 52/53/	NMH 204	29	NMH 406	18	
+478	{year : 2013	 semester : 1	 class_code : GEK10035	 class_section : 3	 time : 24/25/	NTH 412	106	NMH 205B	105	

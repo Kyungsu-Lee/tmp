@@ -95,11 +95,6 @@ public class MutationAdaptor
 		for(ClassRoom classRoom : ClassRoomManager.getInstance().getAllClassRooms())
 			room2.add(new ClassRoomGene(classRoom.getName(), classRoom.getNum()));
 
-		for(ClassGene _class : class2)
-		for(ClassRoomGene room : room2)
-			if(room.getName().equals(_class.get_tmp_class_room()))
-				room.enroll(_class);
-
 
 		if(rate < 0 || rate > 100) return null;
 		double mutation_rate = (rate * class1.size()-1) / 100.0;
@@ -112,14 +107,30 @@ public class MutationAdaptor
 			int rd_num = rd.nextInt(class1.size());
 			tmp.add(class1.get(rd_num));
 		}
-		for(int i=0; i<class2.size()-1 ; i++)
+
+		for(ClassGene _class : tmp)
+		for(ClassRoomGene room : room2)
+			if(room.getName().equals(_class.getClassRoom().getName()))
+			{
+				room.enroll(_class);
+			}
+
+		for(int i=0; i<class2.size() ; i++)
 		{
 			if(!tmp.contains(class2.get(i))) 
 			{
-				tmp.add(class2.get(i));
+				for(ClassRoomGene room : room2)
+				{
+					if(!room.hasTime(class2.get(i).getTime()))
+					{
+						room.enroll(class2.get(i)); 
+						tmp.add(class2.get(i));break;
+					}
+				}
 			}
 		}
 
+		if(tmp.size() != class1.size()) System.out.println("error");
 
 		ArrayList<ClassGene> array = new ArrayList<>();
 		ArrayList<ClassRoomGene> array2 = new ArrayList<>();

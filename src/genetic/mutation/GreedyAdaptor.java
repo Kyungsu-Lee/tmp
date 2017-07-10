@@ -119,6 +119,42 @@ public class GreedyAdaptor
 		return gene;
 	}
 
+	public Gene mutate(int rate, int index)
+	{
+		if(rate < 0 || rate > 100) return null;
+		double mutation_rate = (rate * classes.size()-1) / 100.0;
+		Random rd = new Random();
+
+		Collections.sort(classes, new MovementGeneComp());
+
+		for(int i=0; i<= mutation_rate; i++)
+		{
+			int rd_num = rd.nextInt(classRooms.size());
+			if(
+				(classRooms.get(rd_num).hasTime(classes.get(i).getTime())) 
+				&& !condition(classes.get(i), classRooms.get(rd_num))
+			  ) { continue;}
+
+			ClassRoomGene _old = classes.get(i).getClassRoom();
+			ClassRoomGene _new = classRooms.get(rd_num);
+
+			int _prev = classes.get(i).getMovement();
+			_new.enroll(classes.get(i));
+			int _next = classes.get(i).getMovement();
+
+			if(_prev <= _next)
+			{
+				_old.enroll(classes.get(i));
+				continue;
+			}		
+			System.out.println(index + "\t" + classes.get(i).toString() + "\t" +_old.getName() +"\t" + _prev + "\t" + _new.getName() +"\t"+ _next + "\t");
+		}
+
+		Gene gene = new Gene();
+		gene.mutate(classes, classRooms);
+		return gene;
+	}
+
 	private boolean condition(ClassInfo classInfo, ClassRoom classRoom)
 	{
 		boolean flag = true;

@@ -139,7 +139,7 @@ public class ClassGene
 
 	public int getMovement()
 	{
-		return Math.abs(getPreviousDistance(DistanceTable.getInstance()) - getNextDistance(DistanceTable.getInstance()));
+		return Math.abs(getPreviousDistance(DistanceTable.getInstance()) + getNextDistance(DistanceTable.getInstance()));
 	}
 
 	public void setClassRelation(ClassGene _class)
