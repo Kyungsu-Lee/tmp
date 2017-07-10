@@ -11,8 +11,12 @@ public class Gene
 	private ArrayList<ClassGene> classes = new ArrayList<>();
 	private ArrayList<ClassRoomGene> classRooms = new ArrayList<>();
 
+	int distance;
+	boolean distanceFlag = false;
+
 	public Gene()
 	{
+		distanceFlag = false;
 		for(ClassRoom classRoom : ClassRoomManager.getInstance().getAllClassRooms())
 			classRooms.add(new ClassRoomGene(classRoom.getName(), classRoom.getNum()));
 	}
@@ -31,6 +35,8 @@ public class Gene
 
 	public int getTotalNextDistance()
 	{
+		if(distanceFlag) return this.distance;
+
 		int totalDistance = 0;
 
 		setNextClass();
@@ -38,11 +44,15 @@ public class Gene
 		for(ClassGene _class : classes)
 			totalDistance += _class.getNextDistance(DistanceTable.getInstance());
 
+		distanceFlag = true;
+		this.distance = totalDistance;
+
 		return totalDistance;
 	}
 
 	public void mutate(ArrayList<ClassGene> classes, ArrayList<ClassRoomGene> classRooms)
 	{
+		distanceFlag = false;
 		this.classes = classes;	
 		this.classRooms = classRooms;
 	}
