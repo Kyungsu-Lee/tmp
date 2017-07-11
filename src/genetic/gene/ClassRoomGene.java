@@ -25,6 +25,11 @@ public class ClassRoomGene
 		_class.setClassRoom(this);
 	}
 
+	public void free(ClassGene _class)
+	{
+		this.classes.remove(_class);
+	}
+
 	public boolean hasTime(int[] time)
 	{
 		boolean flag = false;

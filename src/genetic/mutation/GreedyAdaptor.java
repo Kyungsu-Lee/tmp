@@ -45,7 +45,7 @@ public class GreedyAdaptor
 			_new.enroll(array.get(i).getKey());
 			int _next = array.get(i).getMovement();
 
-			if(_prev < _next)
+			if(_prev <= _next)
 			{
 				_old.enroll(array.get(i).getKey());
 				continue;
@@ -94,24 +94,30 @@ public class GreedyAdaptor
 
 		for(int i=0; i<= mutation_rate; i++)
 		{
-			int rd_num = rd.nextInt(classRooms.size());
-			if(
-				(classRooms.get(rd_num).hasTime(classes.get(i).getTime())) 
-				&& !condition(classes.get(i), classRooms.get(rd_num))
-			  ) { continue;}
-
-			ClassRoomGene _old = classes.get(i).getClassRoom();
-			ClassRoomGene _new = classRooms.get(rd_num);
-
-			int _prev = classes.get(i).getMovement();
-			_new.enroll(classes.get(i));
-			int _next = classes.get(i).getMovement();
-
-			if(_prev < _next)
+			for(int rd_num = 0; rd_num < classRooms.size(); rd_num++)
 			{
-				_old.enroll(classes.get(i));
-				continue;
-			}		
+
+				if(
+						(classRooms.get(rd_num).hasTime(classes.get(i).getTime())) 
+						&& !condition(classes.get(i), classRooms.get(rd_num))
+				  ) { continue;}
+
+				ClassRoomGene _old = classes.get(i).getClassRoom();
+				ClassRoomGene _new = classRooms.get(rd_num);
+
+				int _prev = classes.get(i).getMovement();
+				_new.enroll(classes.get(i));
+				int _next = classes.get(i).getMovement();
+
+				if(_prev <= _next)
+				{
+					_old.enroll(classes.get(i));
+					_new.free(classes.get(i));
+					continue;
+				}	
+				else
+					_old.free(classes.get(i));
+			}
 		}
 
 		Gene gene = new Gene();
