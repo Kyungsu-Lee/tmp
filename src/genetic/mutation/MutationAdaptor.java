@@ -141,7 +141,7 @@ public class MutationAdaptor
 		}
 		
 		Gene gene = new Gene();
-		gene.mutate(array, array2);
+		gene.mutate(array);
 		return gene;
 	}
 }

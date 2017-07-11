@@ -115,7 +115,7 @@ public class GreedyAdaptor
 		}
 
 		Gene gene = new Gene();
-		gene.mutate(classes, classRooms);
+		gene.mutate(classes);
 		return gene;
 	}
 
@@ -151,7 +151,7 @@ public class GreedyAdaptor
 		}
 
 		Gene gene = new Gene();
-		gene.mutate(classes, classRooms);
+		gene.mutate(classes);
 		return gene;
 	}
 

@@ -105,7 +105,7 @@ public class RandomArrayAdaptor
 
 
 		Gene gene = new Gene();
-		gene.mutate(classes, classRooms);
+		gene.mutate(classes);
 		return gene;
 	}
 

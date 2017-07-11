@@ -19,13 +19,18 @@ public class ClassGene
 	private String max_num;
 	private String taking_num;
 
+	boolean distanceFlag = false;
+	int distance = 0;
+
 	public ClassGene(ClassKey classKey)
 	{
+		distanceFlag = false;
 		this.classKey = classKey;
 	}
 
 	public ClassGene(ClassGene other)
 	{
+		distanceFlag = false;
 		this.classKey = other.getClassKey();
 		this.setStudentList(other.getStudent());
 		this.setNum(other.getMaxNum(), other.getNum());
@@ -54,6 +59,7 @@ public class ClassGene
 
 	public void setClassRoom(ClassRoomGene classGene)
 	{
+		distanceFlag = false;
 		this.classRoom = classGene;	
 	}
 
@@ -69,11 +75,13 @@ public class ClassGene
 	
 	public void addStudent(Student student)
 	{
+		distanceFlag = false;
 		this.students.add(new Student(student));
 	}	
 
 	public void setStudentList(ArrayList<Student> list)
 	{
+		distanceFlag = false;
 		this.students = list;
 	}
 
@@ -84,6 +92,7 @@ public class ClassGene
 
 	public void setClassTime(int[] time)
 	{
+		distanceFlag = false;
 		this.class_time = new int[time.length];
 		for(int i=0; i<class_time.length; i++)
 			class_time[i] = time[i];
@@ -96,6 +105,8 @@ public class ClassGene
 
 	public int getNextDistance(DistanceTable table)
 	{
+		if(distanceFlag) return this.distance;
+	
 		int distance = 0;
 
 		for(ClassGene _class : next_class)
@@ -114,11 +125,14 @@ public class ClassGene
 			//if(_distance > 0)
 			//System.out.println(classKey + "=>" + _class.getClassKey() + ":" + _distance);
 		}
+		this.distance = distance;
+		distanceFlag = true;
 		return distance;
 	}
 
 	public int getPreviousDistance(DistanceTable table)
 	{
+		if(distanceFlag) return this.distance;
 		int distance = 0;
 
 		for(ClassGene _class : previous_class)
@@ -134,6 +148,8 @@ public class ClassGene
 				}
 			distance += (count * table.getDistance(this.classRoom.getName(), _class.getClassRoom().getName()));
 		}
+		this.distance = distance;
+		distanceFlag = true;
 		return distance;
 	}
 
@@ -144,6 +160,7 @@ public class ClassGene
 
 	public void setClassRelation(ClassGene _class)
 	{
+		distanceFlag = false;
 		boolean flag = false;
 
 		for(int time : class_time)
@@ -163,6 +180,7 @@ public class ClassGene
 
 	public void clear()
 	{
+		distanceFlag = false;
 		next_class.clear();
 	}
 

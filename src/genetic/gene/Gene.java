@@ -9,7 +9,6 @@ import java.util.ArrayList;
 public class Gene
 {
 	private ArrayList<ClassGene> classes = new ArrayList<>();
-	private ArrayList<ClassRoomGene> classRooms = new ArrayList<>();
 
 	int distance;
 	boolean distanceFlag = false;
@@ -17,21 +16,21 @@ public class Gene
 	public Gene()
 	{
 		distanceFlag = false;
-		for(ClassRoom classRoom : ClassRoomManager.getInstance().getAllClassRooms())
-			classRooms.add(new ClassRoomGene(classRoom.getName(), classRoom.getNum()));
 	}
 
 	public void addClass(ClassGene _class)
 	{
 		this.classes.add(_class);
 		
-		for(ClassRoomGene gene : classRooms)
+		for(ClassRoom room: ClassRoomManager.getInstance().getAllClassRooms())
+		{
+			ClassRoomGene gene = new ClassRoomGene(room.getName(), room.getNum());
 			if(gene.getName().equals(_class.get_tmp_class_room()))
 				gene.enroll(_class);
+		}
 	}
 
 	public ArrayList<ClassGene> getClassGene() { return this.classes; }
-	public ArrayList<ClassRoomGene> getClassRoomGene() { return this.classRooms; }
 
 	public int getTotalNextDistance()
 	{
@@ -50,11 +49,9 @@ public class Gene
 		return totalDistance;
 	}
 
-	public void mutate(ArrayList<ClassGene> classes, ArrayList<ClassRoomGene> classRooms)
+	public void mutate(ArrayList<ClassGene> classes)
 	{
-		distanceFlag = false;
-		this.classes = classes;	
-		this.classRooms = classRooms;
+		this.classes = classes;
 	}
 
 	private void setNextClass()

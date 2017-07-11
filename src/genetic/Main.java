@@ -36,68 +36,87 @@ public class Main
 		Gene gene = ClassManager.getInstance().makeGene();
 		Random rd = new Random();
 
-		Gene[] tmp = new Gene[400];
-		Gene[] generation = new Gene[100];
-
-		for(int i=0; i<100; i++)
+		for(int tc = 0; tc< 10; tc++)
 		{
-		GreedyAdaptor rA = new GreedyAdaptor();
-			rA.setGene(gene);
-			generation[i] = rA.mutate(100);
-			if(i%10 == 0) System.out.println("");
-			System.out.print("g");
-		}
+			Gene[] tmp = new Gene[400];
+			Gene[] generation = new Gene[100];
 
-		for(int count = 0; count < 100; count++)
-		{
-		BufferedWriter out = new BufferedWriter(new FileWriter("result/out"+""+".csv", true));
 			for(int i=0; i<100; i++)
-				tmp[i] = generation[i];
-			for(int i=100; i<300; i++)
 			{
-		MutationAdaptor mA = new MutationAdaptor();
-				tmp[i] = mA.mutate(generation[rd.nextInt(100)], generation[rd.nextInt(100)], 50);
-			if(i%10 == 0) System.out.println("");
-			System.out.print("c");
+					GreedyAdaptor rA = new GreedyAdaptor();
+					rA.setGene(gene);
+					generation[i] = rA.mutate(100);
+				for(int k=0; k<30; k++)
+				{
+					GreedyAdaptor rA2 = new GreedyAdaptor();
+					rA2.setGene(generation[i]);
+					generation[i] = rA2.mutate(100);
+					if(k%10 == 0 ) System.out.println("");
+					System.out.print("g");
+				}
+					if(i%10 == 0 ) System.out.println("");
 			}
 
-			for(int i=300; i<400; i++)
-			{
-				GreedyAdaptor g = new GreedyAdaptor(); g.setGene(tmp[i-300]);
-			if(i%10 == 0) System.out.println("");
-			System.out.print("g");
-				tmp[i] = g.mutate(100);
-			}
-
-			System.out.println("sort");
-			Arrays.sort(tmp, new cmp());
-			System.out.println("sort end");
-
-			HashSet<Integer> hset = new HashSet<Integer>();
-			for(int i=0; i<75; i++)
-			{
-				hset.add(i);
-				generation[i] = tmp[i];
-			}
-			int index = 75;
-			while(hset.size() < 100)
-			{
-				int n = rd.nextInt(400);
-				if(hset.contains(n)) continue;
-				
-				hset.add(n);
-				generation[index++] = tmp[n];
-			}
-
-			StringBuilder t = new StringBuilder();
+			BufferedWriter out2 = new BufferedWriter(new FileWriter("result/pool"+tc+".csv", true));
+			StringBuilder t2 = new StringBuilder();
 			for(Gene _class : generation)
-				       t.append(count + "," + _class.getTotalNextDistance() + ",\n");
+					  t2.append(_class.getTotalNextDistance() + ",\n");
 
-			System.out.println(t.toString());
-			out.write(t.toString());
-		out.close();
+			System.out.println(t2.toString());
+			out2.write(t2.toString());
+			out2.close();
+
+
+			for(int count = 0; count < 100; count++)
+			{
+				BufferedWriter out = new BufferedWriter(new FileWriter("result/outt"+tc+"_"+ count +".csv", true));
+				for(int i=0; i<100; i++)
+					tmp[i] = generation[i];
+				for(int i=100; i<300; i++)
+				{
+					MutationAdaptor mA = new MutationAdaptor();
+					tmp[i] = mA.mutate(generation[rd.nextInt(100)], generation[rd.nextInt(100)], 50);
+					if(i%10 == 0) System.out.println("");
+					System.out.print("c");
+				}
+
+				for(int i=300; i<400; i++)
+				{
+					GreedyAdaptor g = new GreedyAdaptor(); g.setGene(tmp[i-300]);
+					if(i%10 == 0) System.out.println("");
+					System.out.print("g");
+					tmp[i] = g.mutate(100);
+				}
+
+				System.out.println("sort");
+				Arrays.sort(tmp, new cmp());
+				System.out.println("sort end");
+
+				HashSet<Integer> hset = new HashSet<Integer>();
+				for(int i=0; i<75; i++)
+				{
+					hset.add(i);
+					generation[i] = tmp[i];
+				}
+				int index = 75;
+				while(hset.size() < 100)
+				{
+					int n = rd.nextInt(400);
+					if(hset.contains(n)) continue;
+
+					hset.add(n);
+					generation[index++] = tmp[n];
+				}
+
+				StringBuilder t = new StringBuilder();
+				for(Gene _class : generation)
+						  t.append(count + "," + _class.getTotalNextDistance() + ",\n");
+
+				System.out.println(t.toString());
+				out.write(t.toString());
+				out.close();
+			}
 		}
-
 
 	}
 }

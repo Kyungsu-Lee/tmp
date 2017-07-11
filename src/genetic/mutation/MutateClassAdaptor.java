@@ -50,7 +50,7 @@ public class MutateClassAdaptor
 
 	public void setGene(Gene gene)
 	{
-		classRooms = gene.getClassRoomGene();
+//		classRooms = gene.getClassRoomGene();
 		classes = gene.getClassGene();
 	}
 
