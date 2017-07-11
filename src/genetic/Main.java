@@ -46,7 +46,7 @@ public class Main
 					GreedyAdaptor rA = new GreedyAdaptor();
 					rA.setGene(gene);
 					generation[i] = rA.mutate(100);
-				for(int k=0; k<30; k++)
+				for(int k=0; k<100; k++)
 				{
 					GreedyAdaptor rA2 = new GreedyAdaptor();
 					rA2.setGene(generation[i]);
